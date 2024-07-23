@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+  background-image: url("./src/assets/Desk_top.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+.box-model{
+  width: 1164px;
+  height: 667px;
+  box-shadow:  4px 4px 4px 4px  #000000;
+border-radius: 1rem;
+  border: white solid 1px;
+  overflow: hidden;
+  padding: 0px 3rem;
+  position: relative;
+
+}
+
