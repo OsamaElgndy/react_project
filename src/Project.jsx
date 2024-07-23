@@ -15,9 +15,9 @@ function Box_model() {
     case "/home":
       back_ground = "transparent"
       break;
-      // case "/":
-      // back_ground = "transparent"
-      // break;
+      case "/":
+      back_ground = "transparent"
+      break;
     default:
       back_ground = "black"
       break;
@@ -31,9 +31,9 @@ function Box_model() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={< Page_not_found />} />
-          <Route path="/home" element={<Page_viwe />} />
-          <Route path="/post" element={<Page_post />} />
-          <Route path="/put" element={<Page_post />} />
+          <Route path="/react_project/home" element={<Page_viwe />} />
+          <Route path="/react_project/post" element={<Page_post />} />
+          <Route path="/react_project/put" element={<Page_post />} />
           <Route path="*" element={< Page_not_found />} />
         </Routes>
       </BrowserRouter>
